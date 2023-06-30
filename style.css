@@ -38,7 +38,7 @@ body {
     position: absolute;
     height: 350px;
     left: 45%;
-    top: 10%;
+    top: 5%;
     transform: translate(-50%);
 }
 
@@ -71,7 +71,7 @@ body {
     width: 260px;
     font-size: 14px;
     position: absolute;
-    bottom: -50%;
+    bottom: -500%;
     left: 50%;
     transform: translate(-50%);
     text-align: center;
@@ -79,7 +79,7 @@ body {
     font-weight: 600;
 }
 
-.container .buy{
+.container .buy {
     background-color: #17202c;
     width: 50px;
     height: 50px;
@@ -91,11 +91,66 @@ body {
     cursor: pointer;
 }
 
-.container .buy i{
+.container .buy i {
     font-size: 24px;
     color: #fff;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+
+.container .back-btn {
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.473);
+    position: absolute;
+    left: 35px;
+    bottom: 35px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+.container .car-2 {
+    position: absolute;
+    height: 100px;
+    left: 200%;
+    top: 10%;
+    transform: translate(-50%);
+}
+
+.container h2{
+    position: absolute;
+    top: 38%;
+    left: -60%;
+    transform: translate(-50%);
+    width: 100%;
+    color: #fff;
+    z-index: 1;
+}
+.container .summary {
+    position: absolute;
+    top: 55%;
+    left: -52%;
+    transform: translate(-50%);
+    width: 83%;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 600;
+    opacity: 0.8;
+    z-index: 1;
+    text-align: left;
+}
+
+.container .summary-2 {
+    position: absolute;
+    top: 70%;
+    left: -52%;
+    transform: translate(-50%);
+    width: 83%;
+    font-size: 13px;
+    text-align: left;
+    color: #fff;
+    font-weight: 600;
+    opacity: 0.8;
+    z-index: 1;
 }
